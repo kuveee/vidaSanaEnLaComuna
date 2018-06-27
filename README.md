@@ -62,5 +62,5 @@
 
 
 **Sketch**
-![img](Assets/Img/sketch.png)
-![img](Assets/Img/sketchcelular.png)
+![img](assets/img/sketch.png)
+![img](assets/img/sketchcelular.png)
