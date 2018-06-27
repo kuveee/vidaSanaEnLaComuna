@@ -28,8 +28,6 @@
 - **Colores**:
 	Fondo Completo:
 	Parrafos y H1:
-
-	
 	
 - **Iconos**:
 
@@ -64,3 +62,5 @@
 
 
 **Sketch**
+![img](Assets/Img/sketch.png)
+![img](Assets/Img/sketchcelular.png)
