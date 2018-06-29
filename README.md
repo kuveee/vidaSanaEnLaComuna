@@ -12,12 +12,12 @@
 
 **Objetivos UX**
 
-- **Publico objetivo** Adolescentes/jóvenes/adultos.
+- **Publico objetivo** jóvenes/adultos interesados en cambiar su estilo de vida a saludable.
+- En la pagina home al ir navegando se podra resumen e items que redirigen a las paginas especificas.
 
 **Tipo de layout**
 	
-- Landing page: Con bootstrap
-- 
+- 1 a 2 columna Con bootstrap
 
 **Objetivos UI**
 
@@ -26,16 +26,16 @@
 	- Párrafos: Open sans
 
 - **Colores**:
-	Fondo Completo:
-	Parrafos y H1:
-	
+	Fondo Body y navbar: #ebe7e4;
+	Fondo iconos: (139,179,182);
+
 - **Iconos**:
 
 	 - Font Awesome
 
 - **Imágenes**:
 
-	- Sacadas de paginas oficiales de Municipalidad Quilicura.
+	- Sacadas de pagina oficial de Municipalidad Quilicura y sus redes sociales.
  
 	
 - **Estructura HTML**:
@@ -48,6 +48,21 @@
    Septima sección: Footer
 
 - **Clases CSS**:
+-Sección 1:
+	-navbar
+	-navbar-brand--secundary
+-Sección 2:
+	-header-vidasana
+-Sección 3:
+	-lessons
+	-lessons__inner
+	-lessons__inner__right
+	-lessons__inner__img
+-Sección 4: 
+	-nutrition
+	-nutrition__inner
+	-nutrition__inner_img-right
+-Sección 4:
 
 - **Estructura de directorio**: 
 	- index
@@ -63,4 +78,4 @@
 
 **Sketch**
 ![img](assets/img/sketch.png)
-![img](assets/img/sketchcelular.png)
+![img](Assets/Img/sketchcelular.png)
