@@ -1,0 +1,324 @@
+
+body{
+	background-color: #ebe7e4;
+}
+
+h1{
+	font-family: 'Alex Brush', cursive;
+}
+
+h2,h3,h4 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Jerarquia de fonts*/
+
+h1 {
+	font-size: 3.5em;
+	
+}
+
+h2{
+	font-size: 2.25em;
+}
+h3{
+	font-size: 1.6em;
+}
+
+p{
+	font-size: 1em;
+}
+
+.buttons{
+	font-size: 1.1em;
+	height: 2.8em;
+	border-radius: 0px;
+	padding-left: 1.5em;
+    padding-right: 1.5em;
+   	letter-spacing: 1px;
+   	background-color: rgb(130,173,159);
+   	border: solid 1px rgb(130,173,159);
+   
+}
+.buttons:hover{
+	opacity: 1.9;
+	cursor: pointer;
+	transition: color .3s;
+	transition: pointer .3s;
+   
+}
+
+
+@media only screen and (max-width: 767px){
+	h1{
+		font-size: 2.60em;
+	}
+	h2{
+		font-size: 1.625em;	
+	}	
+	h3{
+		font-size: 1.375em;
+	}
+	p{
+	font-size: 1em;
+	}
+	.buttons--con{
+		display: none;
+	}
+}
+
+/*Navbar*/
+.navbar{
+	background-color: #ebe7e4;
+}
+
+.navbar-brand--secundary{
+	width: 30px;
+	height: 30px;
+
+}
+/*Fin navbar*/
+
+/*Header*/
+.header-vidasana{
+	height:600px;
+	background-image: url(../../assets/img/helena-yankovska-408205-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-vidasana h1{
+	font-size: 7em;
+}
+
+@media only screen and (max-width: 768px){
+	.header-vidasana{
+	height:400px;
+	}
+	.header-vidasana h1{
+	font-size: 3.5em;
+}
+	.header-vidasana p {
+		display: none;
+	}
+}
+/*Fin header*/
+
+
+/*Main talleres y eventos*/
+
+.lessons {
+	height: 289px;
+	margin-right: 0.5rem;
+	-webkit-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+	-moz-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+	box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+}
+.lessons__secundary{
+	
+	height: 289px;
+	-webkit-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+	-moz-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+	box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+}
+.lessons__inner{
+	background-color: white;
+	height: 289px;
+	line-height: 26px;
+}
+.lessons__img__right{
+	background-image: url(../../assets/img/taller.png);
+	height: 289px;
+	background-size: cover;
+}
+.lessons__img__left{
+	background-image: url(../../assets/img/event.png);
+	height: 289px;
+	background-size: cover;
+
+}
+
+@media only screen and (max-width: 768px){
+	.lessons__img__right{
+		display: none;
+	}
+	.lessons__img__left{
+		display: none;
+	}
+	.lessons {
+		margin-bottom: 50px;
+		margin-right: 0rem;
+		margin-left: 0rem;
+	}
+}
+
+/*Fin main talleres y eventos*/
+
+/*Comienzo nutrition*/
+.nutrition h1{
+ 	margin-top: 30px;
+}
+
+.nutrition__inner{
+	text-align: center;
+	padding-top: 100px;
+	height: 289px;
+	line-height: 26px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: white;
+	-webkit-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+	-moz-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+	box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+}
+
+.nutrition__inner_img-right {
+	background-image: url("../../assets/img/vida-sana2.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.nutrition__inner_img-left{
+	background-image: url("../../assets/img/vidasana2.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px){
+	.nutrition__inner{
+		padding-top: 100px;
+	}
+	.nutrition__inner--padding{
+		padding-top: 100px;
+	}
+	.nutrition__inner_img-right{
+	display: none;
+	}
+
+}
+/*Fin nutrition*/
+
+/*feature*/
+.achievements {
+  text-align: center;
+  padding: 4rem 10vw 10rem 10vw;
+  position: relative;
+
+}
+
+.achievements h3 {
+  padding-top: 1rem;
+}
+
+.achievements__inner{
+	background-image: url(../../assets/img/Fondo.png);
+	height: 289px;
+	background-size: 100% 100%;
+
+}
+.achievements__inner__mov{
+	position: absolute;
+	top:50px;
+	right: 50px;
+
+}
+
+.achievements__inner-icon {
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  position: relative;
+  -webkit-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+	-moz-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+	box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+}
+
+.svg-inline--fa  {
+  color:black;
+  font-size: 40px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+@media only screen and (max-width: 768px){
+	.achievements__inner{
+		margin-bottom: 30px;
+	}
+	.achievements__inner__mov{
+		position: absolute;
+		top:20px;
+		right: 35px;
+	}
+}
+/*Fin feature*/
+
+/*Comienzo corousel*/
+.carousel-inner{
+	height: 289px;
+}
+.carousel-inner img{
+	height: 289px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+/*Fin corousel*/
+
+/*Comienzo footer*/
+.footer{
+	height: 8em;
+}
+.footer__form{
+	margin-top: 5em;
+	-webkit-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+	-moz-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+	box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+	height: 100%;
+	padding: 100px;
+	background-color: white;
+}
+.form-group{
+
+}
+.footer__secundary{
+	margin-top: 5em;
+}
+.footer p{
+	font-weight: bold;
+}
+.footer button{
+	
+	margin-left: 5px;
+}
+.footer__inner{
+	background-color: rgb(130,173,159);
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	margin: auto;
+	position: relative;
+	display: inline-block;
+
+}
+.footer__inner-icon{
+	font-size: 1em;
+	position: absolute;
+	top: 10px;
+	left:10px;
+
+}
+
+
+@media only screen and (max-width: 768px){
+	.footer__form{
+	margin-top: 5em;
+	padding-left: 25px;
+	padding-right: 0px;
+	}
+
+}
+/*Fin footer*/
