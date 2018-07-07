@@ -26,8 +26,12 @@
 	- Párrafos: Open sans
 
 - **Colores**:
-	Fondo Body y navbar: #ebe7e4;
-	Fondo iconos: (139,179,182);
+	-  Fondo Body y navbar: #ebe7e4;
+		
+	- Fondo iconos: (139,179,182);
+		
+	- Fondo iconos: (139,179,182);
+	- Color letras: #212529
 
 - **Iconos**:
 
@@ -48,22 +52,56 @@
    Septima sección: Footer
 
 - **Clases CSS**:
--Sección 1:
-	-navbar
-	-navbar-brand--secundary
--Sección 2:
-	-header-vidasana
--Sección 3:
-	-lessons
-	-lessons__inner
-	-lessons__inner__right
-	-lessons__inner__img
--Sección 4: 
-	-nutrition
-	-nutrition__inner
-	-nutrition__inner_img-right
--Sección 4:
 
+- Sección 1:
+	
+	- navbar
+	- navbar-brand
+		
+	- navbar-brand--secundary
+
+- Sección 2:
+- 	header-vidasana
+
+- Sección 3:
+	
+	- lessons
+	- lessons__inner
+	- lessons__img__left
+	- lessons__inner__right
+	- lessons__inner__img
+	
+
+- Sección 4: 
+	- nutrition
+	- nutrition__inner
+	- nutrition__inner_img-right
+	- nutrition__inner_img-left
+
+- Sección 5:
+
+	- 	achievements
+	- 	achievements__inner
+	- 	achievements__inner__mov
+	- 	achievements__inner-icon
+	- 	svg-inline--fa
+	- 	svg-inline--fa-2
+	- 	svg-inline--fa-3
+
+- Sección 6:
+	- #testimonials
+	- carousel-inner
+	- carousel-item
+
+-Sección 7: 
+	- footer
+	- footer__form
+	- footer__inner
+	- footer__inner-icon
+	- footer__inner-icon--left
+	- footer__inner-icon--right
+	- footer__secundary
+	
 - **Estructura de directorio**: 
 	- index
 	- README
@@ -78,4 +116,5 @@
 
 **Sketch**
 ![img](assets/img/sketch.png)
-![img](Assets/Img/sketchcelular.png)
+
+![img](assets/img/sketchcelular.png)
