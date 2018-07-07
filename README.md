@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 **Tema**
 	
@@ -202,4 +202,4 @@ link: https://kuveee.github.io/vidaSanaEnLaComuna/
 **Sketch**
 ![img](assets/img/sketch.png)
 ![img](Assets/Img/sketchcelular.png)
->>>>>>> c96782f2fe49f29e2e8a4bac934d8935e0a5961a
+
