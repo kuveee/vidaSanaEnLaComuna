@@ -13,8 +13,17 @@ h2,h3,h4 {
 
 p {
 	font-family: 'Open Sans', sans-serif;
-}
 
+}
+a{
+	color:black;
+}
+a:hover{
+	color:grey;
+	cursor: pointer;
+	transition: color .3s;
+	transition: pointer .3s;
+}
 /*Jerarquia de fonts*/
 
 h1 {
@@ -66,33 +75,65 @@ p{
 	p{
 	font-size: 1em;
 	}
-	.buttons--con{
-		display: none;
-	}
+	
 }
 
 /*Navbar*/
 .navbar{
 	background-color: #ebe7e4;
+	
 }
-
+.navbar-brand{
+	margin-left: 200px;
+}
 .navbar-brand--secundary{
 	width: 30px;
 	height: 30px;
+	
+}
+.navbar-nav{
+	margin-right: 220px;
 
 }
+.nav-link:hover{
+	border-bottom: solid 1px rgb(130,173,159);
+
+}
+@media only screen and (max-width: 768px){
+	.navbar-brand{
+	margin-left: 0px;
+	}
+	.navbar-brand--secundary{
+	margin-left: 0px;
+	width: 25px;
+	height: 25px;
+	}
+	.navbar-nav{
+	margin-right: 0px;
+	}
+}
+
 /*Fin navbar*/
 
 /*Header*/
 .header-vidasana{
-	height:600px;
-	background-image: url(../../assets/img/helena-yankovska-408205-unsplash.jpg);
+	height:650px;
+	background-image: url(../../assets/img/banner8.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
 
 .header-vidasana h1{
-	font-size: 7em;
+	font-size: 9em;
+	letter-spacing: 3px;
+	text-shadow: 3px 3px 2px #000;
+
+}
+.header-vidasana p {
+	font-size: 18px;
+	width: 50em;
+	letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 768px){
@@ -100,7 +141,10 @@ p{
 	height:400px;
 	}
 	.header-vidasana h1{
-	font-size: 3.5em;
+	font-size: 4.5em;
+	text-align: center;
+	
+
 }
 	.header-vidasana p {
 		display: none;
@@ -112,29 +156,38 @@ p{
 /*Main talleres y eventos*/
 
 .lessons {
+	
 	height: 289px;
 	margin-right: 0.5rem;
 	-webkit-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
 	-moz-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
 	box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+
 }
-.lessons__secundary{
+.lessons__inner{
+	text-align: center;
+	padding-top: 55px;
+	background-color: white;
+	height: 289px;
+	line-height: 26px;
 	
+}
+
+.lessons__secundary{
 	height: 289px;
 	-webkit-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
 	-moz-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
 	box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
+
 }
-.lessons__inner{
-	background-color: white;
-	height: 289px;
-	line-height: 26px;
-}
+
 .lessons__img__right{
 	background-image: url(../../assets/img/taller.png);
 	height: 289px;
 	background-size: cover;
+
 }
+
 .lessons__img__left{
 	background-image: url(../../assets/img/event.png);
 	height: 289px;
@@ -165,9 +218,9 @@ p{
 
 .nutrition__inner{
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 80px;
 	height: 289px;
-	line-height: 26px;
+	line-height: 15px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: white;
@@ -188,12 +241,6 @@ p{
 }
 
 @media only screen and (max-width: 768px){
-	.nutrition__inner{
-		padding-top: 100px;
-	}
-	.nutrition__inner--padding{
-		padding-top: 100px;
-	}
 	.nutrition__inner_img-right{
 	display: none;
 	}
@@ -201,29 +248,33 @@ p{
 }
 /*Fin nutrition*/
 
-/*feature*/
+/*achievements*/
 .achievements {
   text-align: center;
-  padding: 4rem 10vw 10rem 10vw;
+  padding: 4rem 10vw 2rem 10vw;
   position: relative;
+  margin-bottom: 130px;
+  line-height: 26px;
+  letter-spacing: 1px;
 
 }
 
 .achievements h3 {
   padding-top: 1rem;
+ text-align: center;
+
 }
 
 .achievements__inner{
-	background-image: url(../../assets/img/Fondo.png);
-	height: 289px;
+	height: 200px;
 	background-size: 100% 100%;
+
 
 }
 .achievements__inner__mov{
 	position: absolute;
-	top:50px;
-	right: 50px;
-
+	top:80px;
+	right: 5px;
 }
 
 .achievements__inner-icon {
@@ -239,15 +290,26 @@ p{
 }
 
 .svg-inline--fa  {
-  color:black;
+  color:rgb(130,173,159);
   font-size: 40px;
   position: absolute;
   top: 30px;
   right: 30px;
+
+}
+.svg-inline--fa-2{
+	position: absolute;
+	right: 27px;
+}
+.svg-inline--fa-3{
+	position: absolute;
+	right: 35px;
 }
 @media only screen and (max-width: 768px){
 	.achievements__inner{
-		margin-bottom: 30px;
+		margin-bottom: 0px;
+		margin-left: 50px;
+
 	}
 	.achievements__inner__mov{
 		position: absolute;
@@ -258,14 +320,46 @@ p{
 /*Fin feature*/
 
 /*Comienzo corousel*/
-.carousel-inner{
-	height: 289px;
+#testimonials{
+	height: 300px;
 }
+
 .carousel-inner img{
-	height: 289px;
+
+	height: 110px;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	
 }
+.carousel-item h5{
+	line-height: 33px;
+	font-size: 21px;
+	letter-spacing:2px;
+}
+.carousel-item p{
+	line-height: 33px;
+	font-size: 21px;
+	letter-spacing:2px;
+}
+
+@media only screen and (max-width: 768px){
+	#testimonials{
+		padding: 0px;
+
+
+	}
+	.carousel-item h5{
+	line-height: 20px;
+	font-size: 18px;
+	letter-spacing:2px;
+}
+.carousel-item p{
+	line-height: 20px;
+	font-size: 16px;
+	letter-spacing:2px;
+}
+}
+
 /*Fin corousel*/
 
 /*Comienzo footer*/
@@ -281,9 +375,7 @@ p{
 	padding: 100px;
 	background-color: white;
 }
-.form-group{
 
-}
 .footer__secundary{
 	margin-top: 5em;
 }
@@ -291,7 +383,6 @@ p{
 	font-weight: bold;
 }
 .footer button{
-	
 	margin-left: 5px;
 }
 .footer__inner{
@@ -311,6 +402,20 @@ p{
 	left:10px;
 
 }
+.footer__inner-icon--left{
+	font-size: 1em;
+	position: absolute;
+	top: 10px;
+	left:13px;
+
+}
+.footer__inner-icon--right{
+	font-size: 1em;
+	position: absolute;
+	top: 10px;
+	left:9px;
+}
+
 
 
 @media only screen and (max-width: 768px){
@@ -322,3 +427,27 @@ p{
 
 }
 /*Fin footer*/
+
+
+/*Contacto*/
+.contacto{
+
+}
+
+.contacto__map{
+
+}
+.contacto__datos{
+
+
+}
+.contacto__datos h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	letter-spacing: 3px;
+	margin-top: 50px;
+}
+.p {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 2px;
+}
