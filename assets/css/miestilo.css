@@ -81,6 +81,7 @@ p{
 /*Navbar*/
 .navbar{
 	background-color: #ebe7e4;
+	padding: 20px;
 	
 }
 .navbar-brand{
@@ -95,11 +96,17 @@ p{
 	margin-right: 220px;
 
 }
-.nav-link:hover{
-	border-bottom: solid 1px rgb(130,173,159);
 
-}
-@media only screen and (max-width: 768px){
+.nav-item:hover{
+	border-radius: 0px;
+   	background-color: rgb(130,173,159);
+ }
+   	
+@media only screen and (min-device-width: 320px) and (max-device-width: 425px){
+	.navbar{
+	background-color: #ebe7e4;
+	padding: 20px 0px 20px 0px;
+	}
 	.navbar-brand{
 	margin-left: 0px;
 	}
@@ -111,7 +118,14 @@ p{
 	.navbar-nav{
 	margin-right: 0px;
 	}
+
 }
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px){
+	.navbar-brand{
+	margin-left: 0px;
+	}
+}
+
 
 /*Fin navbar*/
 
@@ -136,20 +150,38 @@ p{
 	letter-spacing: 1px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 425px){
 	.header-vidasana{
 	height:400px;
 	}
 	.header-vidasana h1{
 	font-size: 4.5em;
 	text-align: center;
-	
-
-}
+	}
 	.header-vidasana p {
 		display: none;
 	}
 }
+
+@media only screen and (min-device-width: 426px) and (max-width: 768px){
+	.header-vidasana{
+	height:400px;
+	}
+	.header-vidasana h1{
+	font-size: 4.5em;
+	text-align: center;
+	}
+	.header-vidasana p {
+		display: none;
+	}
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px){
+	.header-vidasana h1{
+	font-size: 6em;
+	text-align: center;
+	}
+}
+
 /*Fin header*/
 
 
@@ -194,8 +226,7 @@ p{
 	background-size: cover;
 
 }
-
-@media only screen and (max-width: 768px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 425px){
 	.lessons__img__right{
 		display: none;
 	}
@@ -209,6 +240,12 @@ p{
 	}
 }
 
+@media only screen and (min-device-width: 426px) and (max-width: 768px){
+	.lessons__inner{
+	padding-top: 30px;
+	}
+}
+
 /*Fin main talleres y eventos*/
 
 /*Comienzo nutrition*/
@@ -218,9 +255,10 @@ p{
 
 .nutrition__inner{
 	text-align: center;
-	padding-top: 80px;
+	padding-top: 55px;
+	background-color: white;
 	height: 289px;
-	line-height: 15px;
+	line-height: 26px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: white;
@@ -240,12 +278,25 @@ p{
 	background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 425px){
+	.nutrition__inner{
+	text-align: center;
+	padding-top: 55px;
+	background-color: white;
+	height: 289px;
+	line-height: 26px;
+	}
 	.nutrition__inner_img-right{
 	display: none;
 	}
-
 }
+
+@media only screen and (min-device-width: 426px) and (max-width: 768px){
+	.nutrition__inner--position{
+	padding-top: 30px;
+	}
+}
+
 /*Fin nutrition*/
 
 /*achievements*/
@@ -305,7 +356,7 @@ p{
 	position: absolute;
 	right: 35px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 425px){
 	.achievements__inner{
 		margin-bottom: 0px;
 		margin-left: 50px;
@@ -317,6 +368,12 @@ p{
 		right: 35px;
 	}
 }
+
+@media only screen and (min-device-width: 426px) and (max-width: 768px){
+
+}
+
+
 /*Fin feature*/
 
 /*Comienzo corousel*/
@@ -342,22 +399,24 @@ p{
 	letter-spacing:2px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 425px){
 	#testimonials{
 		padding: 0px;
-
-
 	}
 	.carousel-item h5{
 	line-height: 20px;
 	font-size: 18px;
 	letter-spacing:2px;
-}
-.carousel-item p{
+	}
+	.carousel-item p{
 	line-height: 20px;
 	font-size: 16px;
 	letter-spacing:2px;
+	}
 }
+
+@media only screen and (min-device-width: 426px) and (max-width: 768px){
+
 }
 
 /*Fin corousel*/
@@ -374,6 +433,7 @@ p{
 	height: 100%;
 	padding: 100px;
 	background-color: white;
+
 }
 .form-group{
 
@@ -418,15 +478,20 @@ p{
 	left:9px;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 425px){
+.form-control{
+	width: 93%;
 
-
-@media only screen and (max-width: 768px){
-	.footer__form{
+}
+.footer__form{
 	margin-top: 5em;
 	padding-left: 25px;
 	padding-right: 0px;
 	}
 
+
+@media only screen and (min-device-width: 426px) and (max-width: 768px){
+	
 }
 /*Fin footer*/
 
@@ -453,3 +518,5 @@ p{
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 2px;
 }
+
+
