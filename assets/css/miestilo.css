@@ -28,7 +28,6 @@ a:hover{
 
 h1 {
 	font-size: 3.5em;
-	
 }
 
 h2{
@@ -37,11 +36,9 @@ h2{
 h3{
 	font-size: 1.6em;
 }
-
 p{
 	font-size: 1em;
 }
-
 .buttons{
 	font-size: 1.1em;
 	height: 2.8em;
@@ -51,14 +48,12 @@ p{
    	letter-spacing: 1px;
    	background-color: rgb(130,173,159);
    	border: solid 1px rgb(130,173,159);
-   
 }
 .buttons:hover{
 	opacity: 1.9;
 	cursor: pointer;
 	transition: color .3s;
 	transition: pointer .3s;
-   
 }
 
 
@@ -75,81 +70,72 @@ p{
 	p{
 	font-size: 1em;
 	}
-	
 }
 
 /*Navbar*/
 .navbar{
 	background-color: #ebe7e4;
 	padding: 20px;
-	
 }
-.navbar-brand{
-	margin-left: 200px;
+.navbar_logo{
+	width: 170px;
+	margin-left: 50px;
 }
+
 .navbar-brand--secundary{
 	width: 30px;
 	height: 30px;
-	
+	margin-left: 190px;
 }
 .navbar-nav{
-	margin-right: 220px;
-
+	
 }
-
 .nav-item:hover{
 	border-radius: 0px;
    	background-color: rgb(130,173,159);
  }
-   	
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px){
 	.navbar{
 	background-color: #ebe7e4;
 	padding: 20px 0px 20px 0px;
 	}
-	.navbar-brand{
-	margin-left: 0px;
+	.navbar-toggler{
+	margin-right: 15px;
 	}
 	.navbar-brand--secundary{
-	margin-left: 0px;
-	width: 25px;
-	height: 25px;
+	display: none;
 	}
 	.navbar-nav{
 	margin-right: 0px;
+	background-color: rgb(130,173,159);
 	}
-
 }
-@media only screen and (min-device-width: 769px) and (max-device-width: 1024px){
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+	.navbar-brand--secundary{
+	display: none;
+}
 	.navbar-brand{
 	margin-left: 0px;
 	}
 }
-
-
-/*Fin navbar*/
 
 /*Header*/
 .header-vidasana{
 	height:650px;
-	background-image: url(../../assets/img/banner8.png);
+	background-image: url(../../assets/img/banner8.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	
 }
-
 .header-vidasana h1{
 	font-size: 9em;
 	letter-spacing: 3px;
 	text-shadow: 3px 3px 2px #000;
-
 }
 .header-vidasana p {
 	font-size: 18px;
 	width: 50em;
 	letter-spacing: 1px;
 }
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px){
 	.header-vidasana{
 	height:400px;
@@ -162,7 +148,6 @@ p{
 		display: none;
 	}
 }
-
 @media only screen and (min-device-width: 426px) and (max-width: 768px){
 	.header-vidasana{
 	height:400px;
@@ -181,20 +166,13 @@ p{
 	text-align: center;
 	}
 }
-
-/*Fin header*/
-
-
 /*Main talleres y eventos*/
-
 .lessons {
-	
 	height: 289px;
 	margin-right: 0.5rem;
 	-webkit-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
 	-moz-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
 	box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
-
 }
 .lessons__inner{
 	text-align: center;
@@ -202,29 +180,22 @@ p{
 	background-color: white;
 	height: 289px;
 	line-height: 26px;
-	
 }
-
 .lessons__secundary{
 	height: 289px;
 	-webkit-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
 	-moz-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
 	box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
-
 }
-
 .lessons__img__right{
 	background-image: url(../../assets/img/taller.png);
 	height: 289px;
 	background-size: cover;
-
 }
-
 .lessons__img__left{
 	background-image: url(../../assets/img/event.png);
 	height: 289px;
 	background-size: cover;
-
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px){
 	.lessons__img__right{
@@ -239,20 +210,15 @@ p{
 		margin-left: 0rem;
 	}
 }
-
 @media only screen and (min-device-width: 426px) and (max-width: 768px){
 	.lessons__inner{
 	padding-top: 30px;
 	}
 }
-
-/*Fin main talleres y eventos*/
-
 /*Comienzo nutrition*/
 .nutrition h1{
  	margin-top: 30px;
 }
-
 .nutrition__inner{
 	text-align: center;
 	padding-top: 55px;
@@ -266,7 +232,6 @@ p{
 	-moz-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
 	box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
 }
-
 .nutrition__inner_img-right {
 	background-image: url("../../assets/img/vida-sana2.jpg");
 	background-size: 100% 100%;
@@ -277,7 +242,6 @@ p{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px){
 	.nutrition__inner{
 	text-align: center;
@@ -290,14 +254,11 @@ p{
 	display: none;
 	}
 }
-
 @media only screen and (min-device-width: 426px) and (max-width: 768px){
 	.nutrition__inner--position{
 	padding-top: 30px;
 	}
 }
-
-/*Fin nutrition*/
 
 /*achievements*/
 .achievements {
@@ -307,27 +268,20 @@ p{
   margin-bottom: 130px;
   line-height: 26px;
   letter-spacing: 1px;
-
 }
-
 .achievements h3 {
   padding-top: 1rem;
  text-align: center;
-
 }
-
 .achievements__inner{
 	height: 200px;
 	background-size: 100% 100%;
-
-
 }
 .achievements__inner__mov{
 	position: absolute;
 	top:80px;
 	right: 5px;
 }
-
 .achievements__inner-icon {
   background-color: white;
   border-radius: 50%;
@@ -339,14 +293,12 @@ p{
 	-moz-box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
 	box-shadow: 0px 10px 107px -15px rgba(0,0,0,0.43);
 }
-
 .svg-inline--fa  {
   color:rgb(130,173,159);
   font-size: 40px;
   position: absolute;
   top: 30px;
   right: 30px;
-
 }
 .svg-inline--fa-2{
 	position: absolute;
@@ -368,25 +320,14 @@ p{
 		right: 35px;
 	}
 }
-
-@media only screen and (min-device-width: 426px) and (max-width: 768px){
-
-}
-
-
-/*Fin feature*/
-
 /*Comienzo corousel*/
 #testimonials{
 	height: 300px;
 }
-
 .carousel-inner img{
-
 	height: 110px;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	
 }
 .carousel-item h5{
 	line-height: 33px;
@@ -398,7 +339,6 @@ p{
 	font-size: 21px;
 	letter-spacing:2px;
 }
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px){
 	#testimonials{
 		padding: 0px;
@@ -414,13 +354,6 @@ p{
 	letter-spacing:2px;
 	}
 }
-
-@media only screen and (min-device-width: 426px) and (max-width: 768px){
-
-}
-
-/*Fin corousel*/
-
 /*Comienzo footer*/
 .footer{
 	height: 8em;
@@ -433,10 +366,6 @@ p{
 	height: 100%;
 	padding: 100px;
 	background-color: white;
-
-}
-.form-group{
-
 }
 .footer__secundary{
 	margin-top: 5em;
@@ -455,21 +384,18 @@ p{
 	margin: auto;
 	position: relative;
 	display: inline-block;
-
 }
 .footer__inner-icon{
 	font-size: 1em;
 	position: absolute;
 	top: 10px;
 	left:10px;
-
 }
 .footer__inner-icon--left{
 	font-size: 1em;
 	position: absolute;
 	top: 10px;
 	left:13px;
-
 }
 .footer__inner-icon--right{
 	font-size: 1em;
@@ -477,36 +403,21 @@ p{
 	top: 10px;
 	left:9px;
 }
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px){
 .form-control{
 	width: 93%;
-
 }
 .footer__form{
 	margin-top: 5em;
 	padding-left: 25px;
 	padding-right: 0px;
-	}
-
-
-@media only screen and (min-device-width: 426px) and (max-width: 768px){
-	
 }
-/*Fin footer*/
-
-
 /*Contacto*/
 .contacto{
-
 }
-
 .contacto__map{
-
 }
 .contacto__datos{
-
-
 }
 .contacto__datos h2 {
 	font-family: 'Open Sans', sans-serif;
