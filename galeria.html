@@ -4,11 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Galería</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<script
-		src="https://code.jquery.com/jquery-3.3.1.min.js"
-		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-		crossorigin="anonymous">
-	</script>
+
 		<!-- Fuentes Google Fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Alex+Brush|Josefin+Sans:300|Open+Sans:300" rel="stylesheet">
     <!-- Bootstrap CSS -->
@@ -25,12 +21,12 @@
 	  	</button>
 	  	<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 	  		<div class="navbar-nav text-left">
-				<a class="nav-item nav-link text-dark mr-2 active" href="#">Home</a>
-				<a class="nav-item nav-link text-dark mr-2" href="#">Nosotros </a></span>
-				<a class="nav-item nav-link text-dark mr-2" href="#">Talleres</a>
-				<a class="nav-item nav-link text-dark mr-2" href="#">Nutrición</a>
+				<a class="nav-item nav-link text-dark mr-2 active" href="index.html">Home</a>
+				<a class="nav-item nav-link text-dark mr-2" href="nosotros.html">Nosotros </a></span>
+				<a class="nav-item nav-link text-dark mr-2" href="talleres.html">Talleres</a>
+				<a class="nav-item nav-link text-dark mr-2" href="nutricion.html">Nutrición</a>
 				<a class="nav-item nav-link text-dark mr-2" href="#">Galeria</a>
-				<a class="nav-item nav-link text-dark mr-2" href="#contacto.html">Contacto</a>
+				<a class="nav-item nav-link text-dark mr-2" href="contacto.html">Contacto</a>
 				<a class="navbar-brand--secundary" href="#"><img src="assets/img/lupa.png" class="navbar-brand--secundary" alt="lupa-vida sana"></a>
 			</div>
 		</div>
@@ -45,59 +41,64 @@
 	</header><!-- fin Container -->
 
 <main>
-
-<div class="container">
-	<h1 class="text-center">Galería</h1>
-</div>
-
-<div class="container mt-2" id="galeria">
-	<div class="row">
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<img src="assets/img/galeria1.png" class="img-fluid" alt="vida sana">
+	<section class="container-fluid galeria mb-5"> <!-- Comienzo nutricion -->
+  		<h1 class="text-center">Galería</h1>
+  		<div class="row mt-5"> <!-- Comienzo row -->
+  			<div class="offset-md-1 offset-lg-1"></div>
+	  			<div class="galeria__inner col-xs-12 col-md-5 col-lg-5 rounded-left">
+	  				<h2>¡Bienvenido!</h2>
+	  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, excepturi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae dicta officia architecto reiciendis. Molestiae animi fugit </p>
+	  				</div>
+  			<div class="galeria__inner galeria__inner__img col-xs-12 col-md-5 col-lg-5 rounded-right"></div>
+  		</div> <!-- Fin row -->
+   	</section> <!-- Fin nutricion -->
+	<section>	
+		<ul class="gallery">
+		    <li class="gallery-item">
+		     	<img class="image" src="assets/img/galeria1.png" alt="">
+		    </li>
+		    <li class="gallery-item">
+			    <img class="image" src="assets/img/galeria2.png" alt="">
+			</li>
+		    <li class="gallery-item">
+		    	<img class="image" src="assets/img/galeria3.png" alt="">
+		  	</li>
+		 	<li class="gallery-item">
+		    	<img class="image" src="assets/img/galeria4.png" alt="">
+		 	</li>
+		    <li class="gallery-item">
+		    	<img class="image" src="assets/img/galeria5.png" alt="">
+		    </li>
+		    <li class="gallery-item">
+		    	<img class="image" src="assets/img/galeria6.png" alt="">
+		    </li>
+		    <li class="gallery-item">
+		    	<img class="image" src="assets/img/galeria7.png" alt="">
+		    </li>
+		    <li class="gallery-item">
+		    	<img class="image" src="assets/img/galeria8.png" alt="">
+		    </li>
+		    <li class="gallery-item">
+		    	<img class="image" src="assets/img/galeria9.png" alt="">
+		    </li>
+		    <li class="gallery-item">
+		    	<img class="image" src="assets/img/galeria10.png" alt="">
+		    </li>
+		    <li class="gallery-item">
+		    	<img class="image" src="assets/img/galeria11.png" alt="">
+		    </li>
+		    <li class="gallery-item">
+		    	<img class="image" src="assets/img/galeria12.png" alt="">
+		    </li>
+		</ul>
+		<div class="modal-closed">
+	  		<div class="slider">
+	    		<img src="" alt="">
+	    	<!-- next-photo & prev-photo buttons -->
+	  		</div>
+	  	<button type="button" class="exit-button"> X </button>
 		</div>
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<img src="assets/img/galeria2.png" class="img-fluid" alt="vida sana">
-		</div>
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<img src="assets/img/galeria3.png" class="img-fluid" alt="vida sana">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<img src="assets/img/galeria4.png" class="img-fluid" alt="vida sana">
-		</div>
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<img src="assets/img/galeria5.png" class="img-fluid" alt="vida sana">
-		</div>
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<img src="assets/img/galeria6.png" class="img-fluid" alt="vida sana">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<img src="assets/img/galeria7.png" class="img-fluid" alt="vida sana">
-		</div>
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<img src="assets/img/galeria8.png" class="img-fluid" alt="vida sana">
-		</div>
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<img src="assets/img/galeria9.png" class="img-fluid" alt="vida sana">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<img src="assets/img/galeria10.png" class="img-fluid" alt="vida sana">
-		</div>
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<img src="assets/img/galeria11.png" class="img-fluid" alt="vida sana">
-		</div>
-		<div class="col-sm-12 col-md-4 col-lg-4">
-			<img src="assets/img/galeria12.png" class="img-fluid" alt="vida sana">
-		</div>
-	</div>
-
-</div>
-	
+	</section>
 </main>
 	
 <div class=" offset-md-1 offset-lg-1 col-md-10 col-lg-10 border mt-5"></div>
@@ -106,7 +107,7 @@
 		<div class="col-xs-12  col-md-12 col-lg-12 footer__form">
 		<form>
   			<div class="form-group">
-  				<h1>Suscribete</h1>
+  				<h1>Suscríbete</h1>
 			    <label for="exampleInputEmail1"></label>
 			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 			    <small id="emailHelp" class="form-text text-muted">Tu correo jamás sera compartido.</small>
@@ -147,6 +148,6 @@
 	<!-- Fonts awesome 5.1.0 -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
-    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script src="assets/js/script-galery.js"></script>
 </body>
 </html>
