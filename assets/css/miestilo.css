@@ -121,10 +121,10 @@ p{
 
 /*Header*/
 .header-vidasana{
-	
-	/*background-image: url(../../assets/img/banner8.jpg);
+	height: 690px;
+	background-image: url(../../assets/img/banner8.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;*/
+	background-size: cover;
 }
 .header-vidasana h1{
 	font-size: 9em;
