@@ -121,10 +121,10 @@ p{
 
 /*Header*/
 .header-vidasana{
-	height:650px;
-	background-image: url(../../assets/img/banner8.jpg);
+	
+	/*background-image: url(../../assets/img/banner8.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
 }
 .header-vidasana h1{
 	font-size: 9em;
@@ -404,20 +404,15 @@ p{
 	left:9px;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 425px){
-.form-control{
-	width: 93%;
-}
-.footer__form{
-	margin-top: 5em;
-	padding-left: 25px;
-	padding-right: 0px;
-}
-/*Contacto*/
-.contacto{
-}
-.contacto__map{
-}
-.contacto__datos{
+	.form-control{
+		width: 93%;
+	}
+	.footer__form{
+		margin-top: 5em;
+		padding-left: 25px;
+		padding-right: 0px;
+	}
+	/*Contacto*/
 }
 .contacto__datos h2 {
 	font-family: 'Open Sans', sans-serif;
@@ -425,9 +420,20 @@ p{
 	letter-spacing: 3px;
 	margin-top: 50px;
 }
-.p {
+.contacto__datos p {
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 2px;
 }
 
+#galeria img {
+	height: 300px;
+	width: 500px;
+	margin-top: 30px;
+	-webkit-box-shadow: 0px 10px 100px -15px rgba(0,0,0,0.43);
+	-moz-box-shadow: 0px 10px 100px -15px rgba(0,0,0,0.43);
+	box-shadow: 0px 10px 100px -15px rgba(0,0,0,0.43);
+	border-radius: 5px;
+}
+
+/*Galeria*/
 
