@@ -14,34 +14,75 @@
 </head>
 <body>
 <!-- Nav -->
-	<nav class="navbar navbar-expand-lg bg-light navbar-light">
-		<a class="navbar-brand mt-2" href="#"><img src="assets/img/logo.png" class="navbar_logo"	alt=""></a>
-	  	<button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target=" #navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="	false" aria-label="Toggle navigation">
-	  	<span class="navbar-toggler-icon"></span>
-	  	</button>
-	  	<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-	  		<div class="navbar-nav text-left">
-				<a class="nav-item nav-link text-dark mr-2 active" href="index.html">Home</a>
-				<a class="nav-item nav-link text-dark mr-2" href="nosotros.html">Nosotros </a></span>
-				<a class="nav-item nav-link text-dark mr-2" href="talleres.html">Talleres</a>
-				<a class="nav-item nav-link text-dark mr-2" href="nutricion.html">Nutrición</a>
-				<a class="nav-item nav-link text-dark mr-2" href="#">Galeria</a>
-				<a class="nav-item nav-link text-dark mr-2" href="contacto.html">Contacto</a>
-				<a class="navbar-brand--secundary" href="#"><img src="assets/img/lupa.png" class="navbar-brand--secundary" alt="lupa-vida sana"></a>
+	<nav class="navbar">
+        <span id="brand">
+            <a href="index.html">VidaSana</a>
+        </span>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+	        <li><a href="nosotros.html">Nosotros</a></li>
+	        <li><a href="talleres.html">Talleres</a></li>
+	        <li><a href="nutricion.html">Nutrición</a></li>
+	        <li><a href="galeria.html">Galeria</a></li>
+	        <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <div id="toggle">
+            <div class="span" id="one"></div>
+            <div class="span" id="two"></div>
+            <div class="span" id="three"></div>
+        </div>
+    </nav>
+    <div id="resize">
+        <ul id="menu">
+			<li><a href="index.html">Home</a></li>
+	        <li><a href="nosotros.html">Nosotros</a></li>
+	        <li><a href="talleres.html">Talleres</a></li>
+	        <li><a href="nutricion.html">Nutrición</a></li>
+	        <li><a href="galeria.html">Galeria</a></li>
+	        <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+      </div>
+
+<header class="header-vidasana">	
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+		<div class="carousel-item active img__vidasana-1">
+	 		<div class=" d-md-block">
+			    <h1 class="text-white text-center">Vida sana Quilicura</h1>
+			    <p class="text-center text-white font-weight-bold">Nuestro programa promueve el deporte y la actividad física, todo esto acompañado de una buena alimentación. El equipo está compuesto por un nutricionista, un sicólogo y un profesor de educación física, logrando un trabajo integral acorde a las necesidades de los participantes</p>
 			</div>
 		</div>
-	</nav> <!-- Fin Nav -->
-
-	<header class="container-fluid mb-5 header-vidasana d-flex flex-column justify-content-center align-items-center"> <!-- comienzo container -->
-		<h1 class="text-white">Vida sana Quilicura</h1>
-		<p class="text-center text-white font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem expedita mollitia, aliquam beatae repudiandae. Ab aliquid, fugit nemo, veniam non aperiam vero minus !</p>
-		<div>
-			<button type="button" class="btn btn-light buttons mt-2">Más Información</button>
+		<div class="carousel-item img__vidasana-2">
+	 		<div class=" d-md-block">
+	     		<h1 class="text-white text-center">Vida sana Quilicura</h1>
+			    <p class="text-center text-white font-weight-bold">Nuestro programa promueve el deporte y la actividad física, todo esto acompañado de una buena alimentación. El equipo está compuesto por un nutricionista, un sicólogo y un profesor de educación física, logrando un trabajo integral acorde a las necesidades de los participantes</p>
+		    </div>
 		</div>
-	</header><!-- fin Container -->
+		<div class="carousel-item img__vidasana-3">
+			<div class=" d-md-block">
+	    		<h1 class="text-white text-center">Vida sana Quilicura</h1>
+			    <p class="text-center text-white font-weight-bold">Nuestro programa promueve el deporte y la actividad física, todo esto acompañado de una buena alimentación. El equipo está compuesto por un nutricionista, un sicólogo y un profesor de educación física, logrando un trabajo integral acorde a las necesidades de los participantes</p>
+		    </div>
+		</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" 	data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Anterior</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" 	data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Siguiente</span>
+		</a>
+	</div>
+</header>
 
 <main>
-	<section class="container-fluid galeria mb-5"> <!-- Comienzo nutricion -->
+	<section class="container-fluid galeria mb-5"> <!-- Comienzo galeria -->
   		<h1 class="text-center">Galería</h1>
   		<div class="row mt-5"> <!-- Comienzo row -->
   			<div class="offset-md-1 offset-lg-1"></div>
@@ -51,7 +92,7 @@
 	  				</div>
   			<div class="galeria__inner galeria__inner__img col-xs-12 col-md-5 col-lg-5 rounded-right"></div>
   		</div> <!-- Fin row -->
-   	</section> <!-- Fin nutricion -->
+   	</section> <!-- Fin galeria -->
 	<section>	
 		<ul class="gallery">
 		    <li class="gallery-item">
@@ -149,5 +190,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
     <script src="assets/js/script-galery.js"></script>
+    <script src="assets/js/script-index.js"></script>
 </body>
 </html>
